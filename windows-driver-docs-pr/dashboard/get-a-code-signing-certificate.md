@@ -128,3 +128,5 @@ This table summarizes the driver signing requirements for Windows.
 \*Configuration Dependent –With Windows 10 Enterprise edition, organizations can use Device Guard to define custom driver signing requirements. For more information about Device Guard, see [Device Guard certification and compliance](https://docs.microsoft.com/windows/keep-secure/device-guard-certification-and-compliance).
 
 (1) Driver signing is required for manufacturers building retail products (i.e. for a non-development purpose) with IoT Core. For a list of approved Certificate Authorities (CAs), see [Cross-Certificates for Kernel Mode Code Signing](https://docs.microsoft.com/windows-hardware/drivers/install/cross-certificates-for-kernel-mode-code-signing). Note that if UEFI Secure Boot is enabled, then drivers must be signed.
+
+(2) Once the EV Code Signing Certificate is on your board and installed on your Software, the most important thins we shold perform is to [veriry Code Signing certificate](https://codesigningstore.com/how-to-verify-your-code-signing-certificate-is-installed) is installed correctly or not, to assure our software code is safe and encrypted.
